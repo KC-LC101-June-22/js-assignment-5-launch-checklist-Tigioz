@@ -43,7 +43,7 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoMass) {
     } else{
         pilotStatus.innerHTML = "Pilot " + pilot + " is ready for launch";
         copilotStatus.innerHTML = "Copilot " + copilot + " is ready for launch";
-        list.style.visibility = "hidden";
+        list.style.visibility = "visible";
         fuelStatus.innerHTML = "Fuel level high enough for launch";
         cargoStatus.innerHTML = "Cargo mass low enough for launch";
         if(fuelLevel < 10000 && cargoMass >= 10000) {
